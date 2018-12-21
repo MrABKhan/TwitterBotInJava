@@ -18,6 +18,13 @@ public class TwitterBot {
             InputStream inputStream = new FileInputStream("C:\\gitrepo\\TwitterBotInJava\\TwitterBot\\resources\\tweets.txt"); // To Be Added.
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 
+            String readLine;
+
+            while((readLine = bufferedReader.readLine())!=null){
+
+                SendTweet(readLine);
+                System.out.println("Sending Tweet :" + readLine);
+            }
 
 
         } catch (FileNotFoundException e) {
@@ -26,6 +33,11 @@ public class TwitterBot {
 
             e.printStackTrace();
 
+        } catch (IOException e) {
+
+            System.out.println("IO exception");
+
+            e.printStackTrace();
         }
 
         //Insert Method for getting tweets after sentiment analysis
