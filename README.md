@@ -1,9 +1,14 @@
 # TwitterBotInJava
-TODO - Create a Twitter Bot which can cycle through a ton of tweets with certain keywords copying and modifying them and posting them in the end. 
+This is WIP of a Twitter Bot which will get top tweets from defined tweet sources and apply sentiment analysis to them and then generate tweets on that data for specific bias set.
 
-1. Sentiment Analysis
-2. Transfer to Java Bot for tweeting
-3. Updated and learn sentiment
+## TODO List:
+- [x] Java Bot for Sending Tweets
+- [ ] Sentiment Analysis of Data
+- [ ] Java Bot for gathering Tweet Data.
+
+## Java Bot for Sending Tweets:
+It uses the Twitter4J library for sending tweets. For Testing purposes I have included the list of tweets in a text file for checking purposes.
+
 
 
 Short outline
