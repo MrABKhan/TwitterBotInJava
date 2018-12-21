@@ -15,6 +15,3 @@ It uses the Twitter4J library for sending tweets. For Testing purposes I have in
 
 #### Note: 
 This bot tweets every 30 minutes. I will modify it's behaviour as time moves on and I complete the other parts of the project.
-
-
-Short outline
