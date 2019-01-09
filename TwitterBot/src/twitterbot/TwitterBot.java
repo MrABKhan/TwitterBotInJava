@@ -1,5 +1,6 @@
 package twitterbot;
 
+import org.springframework.context.annotation.Bean;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -9,9 +10,8 @@ import java.io.*;
 
 public class TwitterBot {
 
-    public static void main(){
+    public TwitterBot(String Path){
 
-        TweetFromSource();
     }
 
     private static void TweetFromSource(){
